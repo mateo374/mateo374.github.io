@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+      <!--navbar-->
+      <header class="header">
+
+        <nav class="navbar">
+          <a href="#home" style="--i:1" class="active">Home</a>
+          <a href="#about" style="--i:2">À propos</a>
+          <a href="#device" style="--i:3">Mes outils</a>
+          <a href="#contact" style="--i:4">Contact</a>
+        </nav>
+
+      </header>
+
+
+      <!--home-->
+      <section class="home" id="home">
+
+        <article class="home-content">
+          <h3>Enchantée, moi c'est</h3>
+          <h1>Matéo Perez</h1>
+          <h3 class="space">Et bienvenu dans mon portfolio</h3>
+
+          <div class="home-sci">
+            <a href="#" style="--i:5"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#" style="--i:6"><i class='bx bx-envelope' ></i></a>
+            <a href="#" style="--i:7"><i class='bx bxl-instagram' ></i></a>
+          </div>
+        </article>
+
+        <!--arrow-->
+      <a href="#about" class="arrow-container">
+        <div class="arrow"></div>
+      </a>
+
+      </section>
+
+      
+      <!--about-->
+    
+     <section id="about">
+      <div class="about">
+      <h2>À PROPOS</h2>
+      <br>
+      <p>Moi, c'est Matéo. J'ai 18 ans et je suis en BUT MMI (Métiers du Multimédia et de l'Internet) à Corté.
+        <br>Je m'intéresse au domaine de l'audiovisuel, au multimédia et à la programmation.
+      </p>
+    </div>
+    </sections>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--My Device-->
+
+    <section class="device" id="device">
+      <h2 class="titre">Mes outils</h2>
+
+      <article id="soft1" class="cards-container">
+        <div class="card">
+          <div class="card-header"><img class="card-image" src="Média/adobe-illustrator.png" alt="Adobe Illustrator"></div>
+          <div class="card-content">
+             <h2 class="card-title">Adobe Illustrator</h2> 
+             <p class="card-description">
+             
+             </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header"><img class="card-image" src="Média/adobe-photoshop.png" alt="Adobe Photoshop"></div>
+          <div class="card-content">
+            <h2 class="card-title">Adobe Photoshop</h2> 
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header"><img class="card-image" src="Média/adobe-premiere-pro.png" alt="Premiere pro"></div>
+          <div class="card-content">
+            <h2 class="card-title">Premiere pro</h2> 
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header"><img class="card-image" src="Média/CSS-HTML.png" alt="CSS HTML"></div>
+          <div class="card-content">
+            <h2 class="card-title">CSS HTML</h2> 
+          </div>
+        </div>
+
+      </article>
+    </section>
+
+    <footer id="contact">
+      <p>
+        Vous pouvez me contacter par
+        <a class="link" href="mailto:mateoguadalupe969@gmail.com">e-mail</a>.
+      </p>
+
+
+      <!--formulaire-->
+      <div class="form">
+      <form class="form" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+    
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+        <button id="send" type="submit">Envoyer</button>
+      </form>
+      </div>
+
+    </footer>
+    </section>
+</body>
+</html>
