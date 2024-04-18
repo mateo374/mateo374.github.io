@@ -293,7 +293,7 @@
   
   footer#contact p:first-child {
     font-size: 4.5rem;
-    text-transform: uppercase;
+    text-transform: none;
     color: #fff;
     padding: 10% 0;
   }
