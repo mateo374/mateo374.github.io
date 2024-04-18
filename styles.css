@@ -303,7 +303,7 @@
     padding: .2rem;
     font-weight: 600;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
     text-decoration: underline;
     background: linear-gradient(to left,black 50%,white 50%) right;
       background-size: auto;
